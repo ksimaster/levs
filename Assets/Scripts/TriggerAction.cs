@@ -7,6 +7,9 @@ public class TriggerAction : MonoBehaviour {
     void  OnTriggerEnter ( Collider col){
         if (col.tag == "Player") 
         {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            col.gameObject.GetComponent<AudioSource>().volume = 0;
             triggerPanel.SetActive(true);
             gameObject.SetActive(false);
             monstr.SetActive(false);
