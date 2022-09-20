@@ -7,6 +7,7 @@ public static class WebGLPluginJS
     // Importing "CallFunction"
     [DllImport("__Internal")]
     public static extern void CallFunction();
+
     // Importing "ShareFunction" add ksimaster
     [DllImport("__Internal")]
     public static extern void ShareFunction();
@@ -19,6 +20,10 @@ public static class WebGLPluginJS
     // Importing "PassTextParam"
     [DllImport("__Internal")]
     public static extern void PassTextParam(string text);
+
+    // Importing "ChangeLanguageFunction" add ksimaster
+    [DllImport("__Internal")]
+    public static extern void ChangeLanguageFunction();
     // Importing "PassNumberParam"
     [DllImport("__Internal")]
     public static extern void PassNumberParam(int number);

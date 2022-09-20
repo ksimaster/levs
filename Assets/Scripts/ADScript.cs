@@ -31,6 +31,24 @@ public class ADScript : MonoBehaviour
     	//if(sliderFuelCar.value<=lowBalanceFuel) sliderFuelCar.value += rewardBonusSliderFuel;
     }
 
+    //Change language
+
+    public void SetEnglish()
+    {
+#if UNITY_WEBGL && !UNITY_EDITOR
+    	WebGLPluginJS.SetEnglishFunction();
+#endif
+        PlayerPrefs.SetString("lang", "en");
+    }
+    public void SetRussian()
+    {
+#if UNITY_WEBGL && !UNITY_EDITOR
+    	WebGLPluginJS.SetRussianFunction();
+#endif
+        PlayerPrefs.SetString("lang", "ru");
+    }
+
+
     private void Update()
     {
         //if (sliderHome.value <= sliderHome.minValue) ShowAdInterstitial();
