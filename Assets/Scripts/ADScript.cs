@@ -33,19 +33,19 @@ public class ADScript : MonoBehaviour
 
     //Change language
 
-    public void SetEnglish()
+    public void SetEnglish(string message)
     {
 #if UNITY_WEBGL && !UNITY_EDITOR
-    	WebGLPluginJS.SetEnglishFunction();
+    	WebGLPluginJS.SetEnglishFunction(string message);
 #endif
-        PlayerPrefs.SetString("lang", "en");
+        PlayerPrefs.SetString("lang", message);
     }
-    public void SetRussian()
+    public void SetRussian(string message)
     {
 #if UNITY_WEBGL && !UNITY_EDITOR
-    	WebGLPluginJS.SetRussianFunction();
+    	WebGLPluginJS.SetRussianFunction(string message);
 #endif
-        PlayerPrefs.SetString("lang", "ru");
+        PlayerPrefs.SetString("lang", message);
     }
 
 

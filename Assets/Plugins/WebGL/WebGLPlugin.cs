@@ -23,7 +23,10 @@ public static class WebGLPluginJS
 
     // Importing "ChangeLanguageFunction" add ksimaster
     [DllImport("__Internal")]
-    public static extern void ChangeLanguageFunction();
+    public static extern void SetEnglishFunction(string message);
+    // Importing "ChangeLanguageFunction" add ksimaster
+    [DllImport("__Internal")]
+    public static extern void SetRussianFunction(string message);
     // Importing "PassNumberParam"
     [DllImport("__Internal")]
     public static extern void PassNumberParam(int number);

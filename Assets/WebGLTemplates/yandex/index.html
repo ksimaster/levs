@@ -50,18 +50,38 @@
       <script>
     
       var sdk = null;
+      var lang = null;
       YaGames.init()
       .then(ysdk => {
         console.log('Yandex SDK initialized');
         sdk = ysdk;
         sdk.adv.showFullscreenAdv();
-        
+        lang = ysdk.environment.i18n.lang;
+        if(lang == 'en'){
+          SetEnglishLanguage();
+        }else{
+          SetRussianLanguage();
+        }
       });
     </script>
     <script>
       //show ads on start game
      // showAdInterstitial();
-      
+     //add language 
+    function SetEnglishLanguage() {
+      console.log('Set english language');
+      var message = "en";
+      unityInstance.SendMessage("Bridge", "SendToUnity", message);
+
+    }
+    function SetRussianLanguage() {
+        console.log('Set russian language');
+        var message = "ru";
+        unityInstance.SendMessage("ADScript", "SendToUnity", message);
+
+
+      }
+
     //add ksimaster
     function showAdInterstitial() {
       console.log('show Ad Interstitial');

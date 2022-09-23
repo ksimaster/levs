@@ -327,7 +327,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You were eaten by sharks
+  m_Text: "\u0412\u0430\u0441 \u0441\u044A\u0435\u043B\u0430 \u0430\u043A\u0443\u043B\u0430"
 --- !u!222 &22932030
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -824,8 +824,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -320.18, y: 287.55997}
-  m_SizeDelta: {x: 206.74, y: 66}
+  m_AnchoredPosition: {x: -261.17523, y: 287.55997}
+  m_SizeDelta: {x: 325.9296, y: 66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &183342461
 MonoBehaviour:
@@ -860,7 +860,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: move
+  m_Text: "\u043F\u0435\u0440\u0435\u0434\u0432\u0438\u0436\u0435\u043D\u0438\u0435"
 --- !u!222 &183342462
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1252,7 +1252,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Try again
+  m_Text: "\u041F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C \u0435\u0449\u0451"
 --- !u!222 &271282852
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2132,8 +2132,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67c1cf7ad7f0ffe489f15f2ce3cdea2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  englishTextFields: []
-  russianTextFields: []
+  englishTextFields:
+  - {fileID: 1806623554}
+  - {fileID: 44547333}
+  - {fileID: 165299122}
+  - {fileID: 1000270306}
+  - {fileID: 1137863070}
+  - {fileID: 342774817}
+  - {fileID: 741122020}
+  - {fileID: 1142473795}
+  - {fileID: 865225830}
+  - {fileID: 752614852}
+  - {fileID: 1027186894}
+  - {fileID: 929074814}
+  - {fileID: 339456710}
+  - {fileID: 671618259}
+  - {fileID: 299572805}
+  russianTextFields:
+  - {fileID: 938828199}
+  - {fileID: 183342459}
+  - {fileID: 835722890}
+  - {fileID: 2120399678}
+  - {fileID: 1723779442}
+  - {fileID: 622465738}
+  - {fileID: 1074059494}
+  - {fileID: 609856982}
+  - {fileID: 1528904254}
+  - {fileID: 2072829397}
+  - {fileID: 1681683190}
+  - {fileID: 22932027}
+  - {fileID: 485344425}
+  - {fileID: 1877321624}
+  - {fileID: 271282849}
 --- !u!1001 &445077143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2277,7 +2307,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Try again
+  m_Text: "\u041F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C \u0435\u0449\u0451"
 --- !u!222 &485344428
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2660,7 +2690,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Play
+  m_Text: "\u0418\u0433\u0440\u0430\u0442\u044C"
 --- !u!222 &609856985
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2739,7 +2769,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Sound: Off'
+  m_Text: "\u0417\u0432\u0443\u043A: \u0412\u044B\u043A\u043B"
 --- !u!222 &622465741
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3661,7 +3691,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: run
+  m_Text: "\u0431\u0435\u0436\u0430\u0442\u044C"
 --- !u!222 &835722893
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4287,9 +4317,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You have dug up your treasure, but Dr. Livesey is wandering somewhere nearby,
-    take the treasure to the ship and stand behind the gate to escape. FORGET THE
-    SEA IT'S FULL OF SHARKS
+  m_Text: "\u0422\u044B \u0412\u042B\u041A\u041E\u041F\u0410\u041B \u0421\u0412\u041E\u0419
+    \u041A\u041B\u0410\u0414, \u041D\u041E \u0414\u041E\u041A\u0422\u041E\u0420 \u041B\u0418\u0412\u0421\u0418
+    \u0411\u0420\u041E\u0414\u0418\u0422 \u0413\u0414\u0415-\u0422\u041E \u0420\u042F\u0414\u041E\u041C,
+    \u0414\u041E\u041D\u0415\u0421\u0418 \u041A\u041B\u0410\u0414 \u0414\u041E \u041A\u041E\u0420\u0430\u0411\u041B\u042F
+    \u0418 \u0412\u0421\u0422\u0410\u041D\u042C \u0417\u0410 \u0428\u0422\u0423\u0420\u0412\u0410\u041B,
+    \u0427\u0422\u041E\u0411\u042B \u0423\u041F\u041B\u042B\u0422\u042C. \u0417\u0410\u0411\u0423\u0414\u042C
+    \u041F\u0420\u041E \u041C\u041E\u0420\u0415 \u0412 \u041D\u0415\u041C \u041F\u041E\u041B\u041D\u041E
+    \u0410\u041A\u0423\u041B"
 --- !u!222 &938828202
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4999,7 +5034,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Sound: On'
+  m_Text: "\u0417\u0432\u0443\u043A: \u0412\u043A\u043B"
 --- !u!222 &1074059497
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6461,7 +6496,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Escape from Dr. Livesey
+  m_Text: "\u041F\u043E\u0431\u0435\u0433 \u043E\u0442 \u0414\u043E\u043A\u0442\u043E\u0440\u0430
+    \u041B\u0438\u0432\u0441\u0438"
 --- !u!222 &1528904257
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7085,7 +7121,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Try again
+  m_Text: "\u041F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C \u0435\u0449\u0451"
 --- !u!222 &1681683193
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7226,7 +7262,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Restart
+  m_Text: "\u0420\u0435\u0441\u0442\u0430\u0440\u0442"
 --- !u!222 &1723779445
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7713,7 +7749,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Congratulations! \r\nYOU RUN!\n"
+  m_Text: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u0435\u043C! \r\n\u0412\u044B
+    \u0441\u0431\u0435\u0436\u0430\u043B\u0438!\n"
 --- !u!222 &1877321627
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8351,7 +8388,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: DEATH
+  m_Text: "\u0421\u041C\u0415\u0420\u0422\u042C"
 --- !u!222 &2072829400
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8487,7 +8524,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: jump
+  m_Text: "\u043F\u0440\u044B\u0433\u0430\u0442\u044C"
 --- !u!222 &2120399681
 CanvasRenderer:
   m_ObjectHideFlags: 0

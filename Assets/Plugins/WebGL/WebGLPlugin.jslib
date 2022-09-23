@@ -19,6 +19,14 @@ mergeInto(LibraryManager.library, {
       // Show a message as an alert
       window.showAdReward();
    },
+      // Function SetEnglishFunction (add ksimaster)
+   SetEnglishFunction: function () {
+      SetEnglish();
+   },
+      // Function SetRussianFunction (add ksimaster)
+   SetRussianFunction: function () {
+      SetRussian();
+   },
    // Function with the text param
    PassTextParam: function (text) {
       // Convert bytes to the text
