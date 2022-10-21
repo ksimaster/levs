@@ -14,7 +14,7 @@ public class ChangeLanguage : MonoBehaviour
     }
     void Update()
     {
-        if (i == 0)
+        if (i < 5)
         {
             if(PlayerPrefs.GetString("lang") == "en")
             {
@@ -27,7 +27,7 @@ public class ChangeLanguage : MonoBehaviour
                 SetText(russianTextFields, true);
             }
 
-            i++;
+            i = i + 1;
         }
     }
 

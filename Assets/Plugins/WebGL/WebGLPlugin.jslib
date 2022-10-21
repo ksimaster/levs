@@ -9,6 +9,14 @@ mergeInto(LibraryManager.library, {
       // Show a message as an alert
       window.showShare();
    },
+   // Function GetLang(add ksimaster)
+   GetLang: function () {
+      var lang = sdk.environment.i18n.lang;
+      var bufferSize = lengthBytesUTF8(lang) + 1;
+      var buffer = _malloc(bufferSize);
+      stringToUTF8(lang, buffer, bufferSize);
+      return buffer;
+   },
    // Function InterstitialFunction (add ksimaster)
    InterstitialFunction: function () {
       // Show a message as an alert
@@ -22,10 +30,6 @@ mergeInto(LibraryManager.library, {
       // Function SetEnglishFunction (add ksimaster)
    SetEnglishFunction: function () {
       SetEnglish();
-   },
-      // Function SetRussianFunction (add ksimaster)
-   SetRussianFunction: function () {
-      SetRussian();
    },
    // Function with the text param
    PassTextParam: function (text) {
