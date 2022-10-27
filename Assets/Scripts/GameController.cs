@@ -25,7 +25,7 @@ public class GameController : MonoBehaviour
     }
     public void Restart()
     {
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene("MainScene_EN");
     }
     public void PauseOn()
     {
